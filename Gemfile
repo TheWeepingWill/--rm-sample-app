@@ -29,6 +29,7 @@ gem "jbuilder"
 
 gem 'slim'
 
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
@@ -65,6 +66,7 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+
 end
 
 gem "webpacker", "~> 5.1"
@@ -92,3 +94,5 @@ group :development, :test do
   gem "rubocop"
   gem "rubocop-rails"
 end
+
+gem 'pry'
