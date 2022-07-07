@@ -20,13 +20,13 @@
     },
     "stylesheets": {
       "css": [
-        "/packs-test/css/stylesheets-f15a469a.css"
+        "/packs-test/css/stylesheets-ec669770.css"
       ],
       "js": [
         "/packs-test/js/stylesheets-44545464b9d9af9902a7.js"
       ],
       "css.map": [
-        "/packs-test/css/stylesheets-f15a469a.css.map"
+        "/packs-test/css/stylesheets-ec669770.css.map"
       ],
       "js.map": [
         "/packs-test/js/stylesheets-44545464b9d9af9902a7.js.map"
@@ -36,8 +36,8 @@
   "media/material-symbols/material-symbols-outlined.woff2": "/packs-test/media/material-symbols/material-symbols-outlined-327800ba.woff2",
   "server_rendering.js": "/packs-test/js/server_rendering-5986f96e7d67e42ed198.js",
   "server_rendering.js.map": "/packs-test/js/server_rendering-5986f96e7d67e42ed198.js.map",
-  "stylesheets.css": "/packs-test/css/stylesheets-f15a469a.css",
-  "stylesheets.css.map": "/packs-test/css/stylesheets-f15a469a.css.map",
+  "stylesheets.css": "/packs-test/css/stylesheets-ec669770.css",
+  "stylesheets.css.map": "/packs-test/css/stylesheets-ec669770.css.map",
   "stylesheets.js": "/packs-test/js/stylesheets-44545464b9d9af9902a7.js",
   "stylesheets.js.map": "/packs-test/js/stylesheets-44545464b9d9af9902a7.js.map"
 }
