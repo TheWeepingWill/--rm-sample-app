@@ -1,23 +1,14 @@
 doctype html
 html
   head
-   title
-    = full_title(yield(:title))
+    title
+      = full_title(yield(:title))
     meta name="viewport" content="width=device-width,initial-scale=1"
     meta charset="utf-8"
-    = csrf_meta_tags
-    = csp_meta_tag
-    = stylesheet_pack_tag 'stylesheets', 'data-turbolinks-track': 'reload'
-    = javascript_pack_tag 'application', 'data-turbolinks-track': 'reload'
+    = render 'layouts/rails_default'
   body.wrapper--main
-    header class="navbar navbar-fixed-top navbar-inverse"
-      .container
-        = link_to root_path, id: "logo" 
-          | sample app
-        ul.nav.navbar-nav.navbar-right
-          li = link_to "Home",   '#'
-          li = link_to "Help",   '#'
-          li = link_to "Log in", '#'
+    = render 'layouts/header'
     = render 'shared/flash'
     .container
       = yield
+    = render 'layouts/footer'
