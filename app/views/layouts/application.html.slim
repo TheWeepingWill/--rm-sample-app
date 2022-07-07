@@ -1,9 +1,9 @@
 doctype html
 html
   head
-   title
-    = yield(:title) 
-    | Ruby on Rails Tutorial Sample App
+    title
+      = yield(:title) 
+      | Ruby on Rails Tutorial Sample App
     meta name="viewport" content="width=device-width,initial-scale=1"
     meta charset="utf-8"
     = csrf_meta_tags
@@ -12,5 +12,5 @@ html
     = javascript_pack_tag 'application', 'data-turbolinks-track': 'reload'
   body.wrapper--main
     = render 'shared/flash'
-    .containerx
-    = yield
+    .container
+      = yield
