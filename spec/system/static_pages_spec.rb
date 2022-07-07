@@ -7,7 +7,7 @@ RSpec.describe 'Static Pages', type: :system do
     it 'responds successfully' do
       visit root_path
       expect(page).to have_content('This is the home page')
-      expect(page.title).to have_content('Home')
+      expect(page.title).to have_content('Ruby on Rails Tutorial Sample App')
     end
   end
 
@@ -15,7 +15,7 @@ RSpec.describe 'Static Pages', type: :system do
     it 'responds successfully' do
       visit static_pages_home_path
       expect(page).to have_content('This is the home page')
-      expect(page.title).to have_content('Home')
+      expect(page.title).to have_content('Ruby on Rails Tutorial Sample App')
     end
   end
 
