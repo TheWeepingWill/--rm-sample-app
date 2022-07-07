@@ -12,12 +12,12 @@ html
   body.wrapper--main
     header class="navbar navbar-fixed-top navbar-inverse"
       .container
-         = link_to root_path, id: "logo" 
+        = link_to root_path, id: "logo" 
           | sample app
-          ul class="nav navbar-nav navbar-right"
-            li = link_to "Home",   '#'
-            li = link_to "Help",   '#'
-            li = link_to "Log in", '#'
+        ul.nav.navbar-nav.navbar-right
+          li = link_to "Home",   '#'
+          li = link_to "Help",   '#'
+          li = link_to "Log in", '#'
     = render 'shared/flash'
     .container
        = yield
