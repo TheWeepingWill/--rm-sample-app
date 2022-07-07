@@ -384,7 +384,9 @@
   "css": [
     "forms.less",
     "navs.less",
-    "navbar.less"
+    "navbar.less",
+    "jumbotron.less",
+    "modals.less"
   ],
   "js": [
     "alert.js",
@@ -400,4 +402,4 @@
     "scrollspy.js",
     "transition.js"
   ]
-} 
+}
