@@ -3,7 +3,8 @@ require 'rails_helper'
 RSpec.describe User, type: :model do
 
   before(:each) do 
-    @user = User.new(name: "Example User", email: "user@example.com")
+    @user = User.new(name: "Example User", email: "user@example.com",
+                     password: 'hellos', password_confirmation: 'hellos')
   end
 
   describe 'validation' do 
@@ -61,10 +62,20 @@ RSpec.describe User, type: :model do
     end
 
     it 'downcases before storing in the database' do 
-      mixed_case_eamil = 'WIlliAm@GmAIl.cOm'
-      @user.email = mixed_case_eamil
+      mixed_case_email = 'WIlliAm@GmAIl.cOm'
+      @user.email = mixed_case_email
       @user.save
       expect(@user.email.downcase).to eq @user.reload.email
+    end
+
+    it 'password should be present' do 
+      @user.password = " " * 6
+      expect(@user.valid?).to be false
+    end
+
+    it 'minimum password length of 6' do 
+      @user.password = "a" * 5
+      expect(@user.valid?).to be false
     end
   end
 end
