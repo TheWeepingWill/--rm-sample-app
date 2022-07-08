@@ -96,3 +96,4 @@ group :development, :test do
 end
 
 gem 'pry'
+gem "bcrypt",  "3.1.18"

@@ -1,7 +1,7 @@
-.container
-    = link_to root_path, id: "logo" 
-      | sample app
-    ul.nav.navbar-nav.navbar-right
-      li.nav-link = link_to "Home",   root_path
-      li.nav-link = link_to "Help",   help_path
-      li.nav-link = link_to "Log in", '#'
+header.nav-bar
+  = link_to 'William\'s app', root_path, id: "logo", class: 'nav-bar__brand'
+    
+  .flex
+    = link_to "Home", root_path, class: 'nav-bar__link'
+    = link_to "Help", help_path, class: 'nav-bar__link'
+    = link_to "Log in", '#', class: 'nav-bar__link'
