@@ -87,6 +87,7 @@ end
 
 group :test do
   gem "test-prof"
+  gem 'rails-controller-testing'
 end
 gem "simple_form"
 

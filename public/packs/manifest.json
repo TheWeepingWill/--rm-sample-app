@@ -20,13 +20,13 @@
     },
     "stylesheets": {
       "css": [
-        "/packs/css/stylesheets-70bc75af.css"
+        "/packs/css/stylesheets-370ce410.css"
       ],
       "js": [
         "/packs/js/stylesheets-14f306d853b2e590ccca.js"
       ],
       "css.map": [
-        "/packs/css/stylesheets-70bc75af.css.map"
+        "/packs/css/stylesheets-370ce410.css.map"
       ],
       "js.map": [
         "/packs/js/stylesheets-14f306d853b2e590ccca.js.map"
@@ -36,8 +36,8 @@
   "media/material-symbols/material-symbols-outlined.woff2": "/packs/media/material-symbols/material-symbols-outlined-327800ba.woff2",
   "server_rendering.js": "/packs/js/server_rendering-59dfdc907d7f620d63f0.js",
   "server_rendering.js.map": "/packs/js/server_rendering-59dfdc907d7f620d63f0.js.map",
-  "stylesheets.css": "/packs/css/stylesheets-70bc75af.css",
-  "stylesheets.css.map": "/packs/css/stylesheets-70bc75af.css.map",
+  "stylesheets.css": "/packs/css/stylesheets-370ce410.css",
+  "stylesheets.css.map": "/packs/css/stylesheets-370ce410.css.map",
   "stylesheets.js": "/packs/js/stylesheets-14f306d853b2e590ccca.js",
   "stylesheets.js.map": "/packs/js/stylesheets-14f306d853b2e590ccca.js.map"
 }
