@@ -6,7 +6,7 @@ header.nav-bar
     = link_to "Help", help_path, class: 'nav-bar__link'
     - if logged_in? 
       = link_to "Users", '#', class: 'nav-bar__link'
-      = link_to "Log out", root_path, class: 'nav-bar__link'
+      = link_to "Log out", logout_path, class: 'nav-bar__link', method: :delete
 
       .form-group 
         label.form-label Account
@@ -18,4 +18,4 @@ header.nav-bar
             = link_to "Settings", '#' 
            
     - else
-      = link_to "Log in", '#', class: 'nav-bar__link'
+      = link_to "Log in", login_path, class: 'nav-bar__link'
